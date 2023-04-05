@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Category\Commands\SubCategoryDetailValue\" />
+    <Folder Include="Category\Commands\SubCategoryDetail\" />
+    <Folder Include="Category\Commands\SubCategory\" />
+    <Folder Include="Category\DTOs\MainCategory\" />
+    <Folder Include="Category\DTOs\SubCategoryDetailValue\" />
+    <Folder Include="Category\DTOs\SubCategoryDetail\" />
+    <Folder Include="Category\DTOs\SubCategory\" />
+    <Folder Include="Category\Queries\MainCategory\" />
+    <Folder Include="Category\Queries\SubCategoryDetailValue\" />
+    <Folder Include="Category\Queries\SubCategoryDetail\" />
+    <Folder Include="Category\Queries\SubCategory\" />
+    <Folder Include="Product\Commands\" />
+    <Folder Include="Product\DTOs\" />
+    <Folder Include="Product\Enums\" />
+    <Folder Include="Product\Profiles\" />
+    <Folder Include="Product\Queries\" />
+    <Folder Include="Product\Repositories\" />
+    <Folder Include="Sale\Commands\" />
+    <Folder Include="Sale\DTOs\" />
+    <Folder Include="Sale\Profiles\" />
+    <Folder Include="Sale\Queries\" />
+    <Folder Include="Sale\Repositories\" />
+    <Folder Include="Support\Commands\" />
+    <Folder Include="Support\DTOs\" />
+    <Folder Include="Support\Enums\" />
+    <Folder Include="Support\Profiles\" />
+    <Folder Include="Support\Queries\" />
+    <Folder Include="Support\Repositories\" />
+    <Folder Include="User\Commands\" />
+    <Folder Include="User\DTOs\" />
+    <Folder Include="User\Enums\" />
+    <Folder Include="User\Profiles\" />
+    <Folder Include="User\Queries\" />
+    <Folder Include="User\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="7.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MMOnlineShop.Common\MMOnlineShop.Common.csproj" />
+  </ItemGroup>
+
+</Project>
